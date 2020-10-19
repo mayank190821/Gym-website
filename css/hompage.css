@@ -1,6 +1,85 @@
 body{
+    /*CSS reset*/
     margin: 0px;
     padding: 0px;
-    background: url('https://cdn.pixabay.com/photo/2016/11/22/22/25/abs-1850926_960_720.jpg') ;
+    background-image :url("../utilities/pic2.jpg");
+    color:white;
+    background-repeat: no-repeat;
+}
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    top:10px;
+    left: 34px;
+    position: absolute;
+    color:white;
+    cursor: default;
+    line-height: 14px;
+}
+.left p{
+    display: inline-block;
+    font-family:'Permanent Marker', cursive;
+    font-size: 19px;
+}
+.left svg{
+    color: rgb(0 253 103);
+}
+
+.centre{
+    /* border: 2px solid white; */
+    margin: 10px auto;
+    display: block;
+    width: 45%;
+}
+.right{
+    border: 2px solid rgb(251, 255, 1);
+    position: absolute;
+    right: 34px;
+    display: inline-block;
+    top:10px;
     
+}
+.navbar{
+    display: inline-block;
+    list-style: none;
+    
+}
+.navbar li{
+    display: inline-block;
+    padding:10px 25px;
+
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    font-size:21px;
+}
+.navbar li a:hover,.navbar li.active{
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
+.btn{
+    margin: 0px 9px;
+    border:1px solid #ffffff;
+    padding: 4px 14px;
+    font-size: 12px;
+    border-radius: 422px;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    outline: transparent;
+}
+.btn:hover{
+    background-color:#e2e2e2;
+    color: black;
+    
+}
+.container{
+    border: 2px solid royalblue;
+    display: inline-block;
+    margin: 53px 125px;
+    padding: 53px;
+    width: 33%;
+    border-radius: 50px;
 }
