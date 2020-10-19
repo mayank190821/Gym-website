@@ -32,7 +32,7 @@ body{
     width: 45%;
 }
 .right{
-    border: 2px solid rgb(251, 255, 1);
+    /* border: 2px solid rgb(251, 255, 1); */
     position: absolute;
     right: 34px;
     display: inline-block;
@@ -69,6 +69,7 @@ body{
     color:white;
     cursor: pointer;
     outline: transparent;
+    
 }
 .btn:hover{
     background-color:#e2e2e2;
@@ -76,10 +77,27 @@ body{
     
 }
 .container{
-    border: 2px solid royalblue;
+    border: 2px solid #ffffff;
     display: inline-block;
-    margin: 53px 125px;
+    margin: 53px 40px;
     padding: 53px;
     width: 33%;
     border-radius: 50px;
+    text-align: center;
+}
+.form-group input{
+    text-align: center;
+    margin: 7px 0px;
+    width: 44%;
+    padding: 0px 11px;
+    border: 2px solid white;
+    border-radius: 20px;
+    outline-style: none;
+}
+#gender{
+    margin: 7px 0px;
+    width: 3%;
+    padding: 0px 11px;
+    border: 2px solid white;
+
 }
