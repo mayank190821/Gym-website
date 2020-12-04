@@ -85,7 +85,7 @@ body{
     border-radius: 50px;
     text-align: center;
 }
-.form-group input{
+form div input{
     text-align: center;
     margin: 7px 0px;
     width: 44%;
